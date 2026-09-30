@@ -1,0 +1,29 @@
+{
+  "job_id": "job-01",
+  "quantity": "wave_height",
+  "target": { "latitude": 34.5, "longitude": -71.2 },
+  "target_time": "2026-09-29T00:00:00Z",
+  "config": {
+    "kernel": "idw",
+    "metric": "degree-adjusted",
+    "power": 2,
+    "max_radius": 1.2,
+    "time_tolerance_seconds": 5400,
+    "target_system": "metric",
+    "weight_floor": 0.02
+  },
+  "stations": [
+    { "station_id": "41003", "latitude": 34.9, "longitude": -71.05, "value": 2.1, "unit": "M", "observed": "2026-09-28T23:55:00Z" },
+    { "station_id": "41005", "latitude": 34.55, "longitude": -71.15, "value": 12.0, "unit": "DEG", "observed": "2026-09-29T00:05:00Z" },
+    { "station_id": "41002", "latitude": 34.4, "longitude": 288.72, "value": 1.8, "unit": "M", "observed": "2026-09-29T00:10:00Z" },
+    { "station_id": "41008", "latitude": 34.2, "longitude": -71.0, "value": 1.55, "unit": "M", "observed": "2026-09-29T00:00:00Z" },
+    { "station_id": "41007", "latitude": 95.0, "longitude": -71.2, "value": 1.9, "unit": "M", "observed": "2026-09-29T00:00:00Z" },
+    { "station_id": "41001", "latitude": 34.6, "longitude": -71.1, "value": 5.2, "unit": "FT", "observed": "2026-09-29T00:20:00Z" },
+    { "station_id": "41009", "latitude": 34.5, "longitude": -70.1, "value": 1.5, "unit": "M", "observed": "2026-09-29T00:00:00Z" },
+    { "station_id": "41003", "latitude": 34.9, "longitude": -71.05, "value": 2.6, "unit": "M", "observed": "2026-09-28T23:55:00Z" },
+    { "station_id": "41004", "latitude": 35.8, "longitude": -70.2, "value": 6.6, "unit": "FT", "observed": "2026-09-29T00:00:00Z" },
+    { "station_id": "41006", "latitude": 34.52, "longitude": -71.18, "value": 1.72, "unit": "M", "observed": "2026-09-28T21:00:00Z" },
+    { "station_id": "41011", "latitude": 34.48, "longitude": -71.22, "value": 1.7, "unit": "M", "observed": "2026-09-29T00:00:00Z" }
+  ],
+  "exclude": ["41011"]
+}

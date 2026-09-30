@@ -1,0 +1,21 @@
+{
+  "job_id": "job-03",
+  "quantity": "pressure",
+  "target": { "latitude": 34.5, "longitude": -71.2 },
+  "target_time": "2026-09-29T00:00:00Z",
+  "config": {
+    "kernel": "idw",
+    "metric": "degree-adjusted",
+    "power": 2,
+    "max_radius": 3.0,
+    "time_tolerance_seconds": 7200,
+    "target_system": "english",
+    "weight_floor": 0.02
+  },
+  "stations": [
+    { "station_id": "45003", "latitude": 34.45, "longitude": -71.25, "value": 29.9, "unit": "INHG", "observed": "2026-09-29T00:00:00Z" },
+    { "station_id": "45001", "latitude": 34.5, "longitude": -71.2, "value": 1013.2, "unit": "HPA", "observed": "2026-09-29T00:00:00Z" },
+    { "station_id": "45002", "latitude": 34.6, "longitude": -71.1, "value": 1015.0, "unit": "HPA", "observed": "2026-09-29T00:00:00Z" }
+  ],
+  "exclude": []
+}
